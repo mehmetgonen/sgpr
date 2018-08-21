@@ -1,0 +1,12 @@
+This repository contains R implementation of the algorithm proposed in "Spatiotemporal prediction of infectious diseases using structured Gaussian processes with application to Crimean-Congo hemorrhagic fever", which is appearing in PLoS Neglected Tropical Diseases.
+
+structured_gpr_demo.R file shows how to use the regression algorithm in R.
+
+SGPR methods
+------------
+* structured_gpr_train.R => training procedure for regression in R
+* structured_gpr_test.R => test procedure for regression in R
+
+If you use the algorithm implemented in this repository, please cite the following paper:
+
+Çiğdem Ak, Önder Ergönül, İrfan Şencan, Mehmet Ali Torunoğlu, Mehmet Gönen. Spatiotemporal prediction of infectious diseases using structured Gaussian processes with application to Crimean-Congo hemorrhagic fever. PLoS Neglected Tropical Diseases, 12(8):e0006737, 2018.
